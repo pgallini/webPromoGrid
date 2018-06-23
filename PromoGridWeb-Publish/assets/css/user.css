@@ -1,0 +1,161 @@
+.btn.btn-primary {
+  border-radius:0px;
+  border-width:0px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  /*box-shadow:0 0 0 .2rem rgba(14,160,255,.5);*/
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color:#fff;
+  background-color:#0084da;
+  /*border-color:#007ccd;*/
+}
+
+body {
+}
+
+#hero_new {
+  width:100%;
+  height:100vh;
+  background-image:url("../../assets/img/adult-beautiful-caucasian-914931.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+@media (min-width: 576px) {
+  #title {
+    font-family:'Days One', sans-serif;
+    background-position:center;
+    font-size:66px;
+  }
+}
+
+.about-me {
+  width:100%;
+}
+
+.container {
+  text-align:center;
+}
+
+#navbar {
+  background-color:rgb(102,79,103);
+}
+
+.bg-white {
+  background-color:#7c97c2!important;
+}
+
+@media (min-width: 320px) {
+  #main_page_container {
+    background-color:rgba(37,78,89,0.58);
+    /*width:80;*/
+    padding:2px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main_page_container {
+    background-color:rgba(37,78,89,0.58);
+    width:70%;
+    padding:2px;
+  }
+}
+
+@media (max-width: 320px) {
+  #title {
+    font-family:'Days One', sans-serif;
+    font-size:36px;
+  }
+}
+
+@media (min-width: 320px) {
+  #subtitle {
+    font-size:18px;
+  }
+}
+
+@media (min-width: 576px) {
+  #subtitle {
+    font-size:24px;
+  }
+}
+
+@media (max-width: 320px) {
+  #tagline {
+    font-size:20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #tagline {
+    font-size:42px;
+  }
+}
+
+@media (max-width: 768px) {
+  #tagline {
+    font-size:36px;
+  }
+}
+
+#google_btn {
+  align-content:center;
+  align-self:center;
+}
+
+@media (min-width:992px) {
+  .col-lg-2 {
+    -ms-flex:0 0 40%;
+    flex:0 0 40%;
+    max-width:40%;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-2 {
+    -ms-flex:0 0 46%;
+    flex:0 0 46%;
+    max-width:46;
+  }
+}
+
+@media (min-width:576px) {
+  .col-sm-1 {
+    -ms-flex:0 0 100%;
+    flex:0 0 100%;
+    max-width:100%;
+  }
+}
+
+.anchor {
+  a.anchor{display:block;
+  position:relative;
+  top:-2500px;
+  visibility:hidden;
+}
+
+#learnmore {
+  a.anchor {    display:block;
+  position:relative;
+  top:-250px;
+  visibility:hidden;
+}
+
+#step-div-1 {
+  margin:auto;
+  width:95%;
+  height:80%;
+  padding:4px;
+  align-self:center;
+  align-items:center;
+  align-content:center;
+}
+
+.bg-white {
+  background-color:#917793!important;
+}
+
